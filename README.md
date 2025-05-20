@@ -30,3 +30,9 @@ Interactive Shiny app analyzing S&P 500 historical data (1928-2023) with:
 1. Ensure required packages are installed:
 ```R
 install.packages(c("shiny", "tidyverse", "lubridate", "tidyquant", "plotly"))
+```
+  - Place all files in the same directory
+  - Run the app
+```R
+shiny::runApp("sp500returns.R")
+```
